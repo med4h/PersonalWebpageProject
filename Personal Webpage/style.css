@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 95%;
+    height: auto;
+    margin-left: 30px;
+}
+
+.menu {
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+}
+
+
+ul li {
+    list-style: none;
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+ul li a:hover {
+    color: #f79d5c;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 85px;
+
+}
+
+.titleA {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.titleA h2 {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 60px;
+
+}
+
+p {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+}
+
+
+.container {
+    display:list-item;
+    gap: 50px;
+}
+
+.box {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    top: 50px;
+}
+
+.box img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.box p {
+    flex: 1;
+    margin: 0;
+    top: 5px;
+    left: 50px;
+}
+
+.container2 {
+    display:flex;
+    justify-content: center;
+    position:relative;
+    top: 250px;
+}
+.box2 {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    margin: 0 10px;
+}
+
+.box2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.link-container {
+    text-align:center;
+    position: relative;
+    top: 250px;
+    right: -310px;
+}
+
+.link-container a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.link-container a:hover {
+    text-decoration: underline;
+}
